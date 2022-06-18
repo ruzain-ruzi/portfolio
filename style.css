@@ -54,7 +54,7 @@ html{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: beige;
+    color: white;
 }
 
 .navbar.sticky{
@@ -112,7 +112,7 @@ html{
 
 .home{
     display: flex;
-    background: url("/images/banner.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -295,7 +295,7 @@ section{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: beige;
+    background: white;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
