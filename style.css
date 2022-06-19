@@ -714,6 +714,37 @@ section{
   color: white;
   background: none;
 }
+#status{
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+}
+#status.submit{
+    background-color: #05fa88;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: red;
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 /* footer section styling */
 
 footer{
