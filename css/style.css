@@ -104,7 +104,7 @@ html{
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center ,linear-gradient(rgba(50, 50, 50, 0.5),rgba(50, 50, 50, 0.5));
+    background: url("../images/banner.jpg") no-repeat center ,linear-gradient(rgba(50, 50, 50, 0.5),rgba(50, 50, 50, 0.5));
     background-blend-mode: overlay;
     height: 100vh;
     color: white;
