@@ -32,7 +32,7 @@ html{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color:#05fa88;
+    color:#00b7ff;
 }
 .navbar.sticky .logo a span{
     color:red;
@@ -42,10 +42,10 @@ html{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-    transition: #05fa88 0.45s ease;
+    transition: #00b7ff 0.45s ease;
 }
 .navbar .menu li a:hover{
-    color:#05fa88;
+    color:#00b7ff;
 }
 
 .navbar .max-width{
@@ -59,7 +59,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: #05fa88;
+    background: #00b7ff;
     transition: all 0.4s ease-in-out;
 }
 
@@ -78,7 +78,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #05fa88;
+    background: #00b7ff;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -112,7 +112,8 @@ html{
 
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.jpg") no-repeat center ,linear-gradient(rgba(50, 50, 50, 0.5),rgba(50, 50, 50, 0.5));
+    background-blend-mode: overlay;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -142,18 +143,18 @@ html{
 }
 .home .home-content a{
     display: inline-block;
-    background: #05fa88;
+    background: #00b7ff;
     color: black;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #05fa88;
+    border: 2px solid #00b7ff;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #05fa88;
+    color: #00b7ff;
     background: none;
 }
 
@@ -197,7 +198,7 @@ section{
     bottom: -12px;
     left:50%;
     font-size: 20px;
-    color: #05fa88;
+    color: #00b7ff;
     padding: 5px;
     background: black;
     transform: translate(-50%);
@@ -227,14 +228,14 @@ section{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #05fa88;
+    background: #00b7ff;
     color: black;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #05fa88;
+    border: 2px solid #00b7ff;
     transition: all 0.3s ease;
     font-family: 'Ubuntu',sans-serif;
     font-weight: 400;
@@ -283,7 +284,7 @@ section{
     font-size: 20px;
     color: black;
     padding: 5px;
-    background: #05fa88;
+    background: #00b7ff;
     transform: translate(-50%);
 }
 
@@ -295,6 +296,7 @@ section{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
+    height: 23rem;
     background: white;
     text-align: center;
     border-radius: 6px;
@@ -303,7 +305,7 @@ section{
 }
 
 .services .serv-content .card:hover{
-    background: #05fa88;
+    background: #00b7ff;
     color: black;
 }
 .services .serv-content .card .box{
@@ -365,7 +367,7 @@ section{
     bottom: -15px;
     left:50%;
     font-size: 20px;
-    color: #05fa88;
+    color: #00b7ff;
     padding: 5px;
     background: black;
     transform: translate(-50%);
@@ -390,14 +392,14 @@ section{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #05fa88;
+    background: #00b7ff;
     color: black;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 500;
     border-radius: 6px;
-    border: 2px solid #05fa88;
+    border: 2px solid #00b7ff;
     transition: all 0.3s ease;
     font-family: 'Ubuntu',sans-serif;
     font-weight: 400;
@@ -501,7 +503,7 @@ section{
     font-size: 20px;
     color: black;
     padding: 5px;
-    background: #05fa88;
+    background: #00b7ff;
     transform: translate(-50%);
 }
 .teams .carousel .card{
@@ -512,7 +514,7 @@ section{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: #05fa88;
+    background: #00b7ff;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -524,10 +526,10 @@ section{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border:  5px solid #05fa88;
+    border:  5px solid #00b7ff;
 }
 .teams .carousel .card:hover{
-    background: #05fa88;
+    background: #00b7ff;
     color: black;
 }
 .teams .carousel .card .text{
@@ -562,7 +564,7 @@ section{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #05fa88!important;
+    border: 2px solid #00b7ff!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -571,7 +573,7 @@ section{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: #05fa88!important;
+    background: #00b7ff!important;
 }
 
 /* Contact stlying*/
@@ -609,7 +611,7 @@ section{
     bottom: -15px;
     left:50%;
     font-size: 20px;
-    color: #05fa88;
+    color: #00b7ff;
     padding: 5px;
     background: black;
     transform: translate(-50%);
@@ -695,7 +697,7 @@ section{
   align-items: center;
 }
 .right form .button-area button{
-  color: #05fa88;
+  color: #00b7ff;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -705,8 +707,8 @@ section{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #05fa88;
-  border: 2px solid #05fa88;
+  background: #00b7ff;
+  border: 2px solid #00b7ff;
   transition: all 0.3s ease;
   color: black;
 }
@@ -723,7 +725,7 @@ section{
     border-radius: 8px;
 }
 #status.submit{
-    background-color: #05fa88;
+    background-color: #00b7ff;
     animation: status 4s ease forwards;
 }
 #status.error{
